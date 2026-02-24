@@ -1,0 +1,36 @@
+{
+  "Physics_Params": {
+    "ranges": {
+      "gamma": [10.0, 40.0],
+      "beta": [0.01, 1.0],
+      "kappa": [0.001, 5.0],
+      "Da_ref": [0.001, 10.0],
+      "theta_0": [-2.0, 2.0]
+    },
+    "base_case": {
+      "gamma": 20.0,
+      "beta": 0.5,
+      "kappa": 0.1,
+      "Da_ref": 0.1,
+      "theta_0": 1.0
+    }
+  },
+  "Initial_Conditions": {
+    "ranges": {
+      "concentracion": [0.0, 1.0],
+      "theta": [-2.0, 2.0]
+    },
+    "base_case": {
+      "concentracion": 0.5,
+      "theta": 1.0
+    }
+  },
+  "Simulation_Settings": {
+    "tau_span": [0.0, 1.0],
+    "num_points": 400,
+    "solver_method": "Radau"
+  },
+  "Protections": {
+    "divisor": 1e-3
+  }
+}

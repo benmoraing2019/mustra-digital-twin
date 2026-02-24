@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env/
+.venv/
+env/
+venv/
+.env
+venv
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Config files
+!src/common/config.json
+
+# Misc
+.DS_Store
+*.log
+*.sqlite3
+*.db
