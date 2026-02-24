@@ -1,5 +1,7 @@
 # 🏭 CSTR Digital Twin: Dynamic Simulation Engine
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/benmoraing2019/mustra-digital-twin/blob/main/main.ipynb)
+
 Este repositorio contiene el motor de simulación dinámica (el "Gemelo Físico") de un Reactor de Mezcla Completa (CSTR) no isotérmico.
 
 Desarrollado en Python bajo una arquitectura orientada a objetos (OOP), este proyecto sirve como el modelo fundamental para la generación de datos sintéticos y el futuro entrenamiento de un Gemelo Digital basado en Machine Learning.
